@@ -1,0 +1,33 @@
+<idea-plugin>
+  <id>com.michaelpauldev.elvis</id>
+  <name>Elvis</name>
+  <version>1.1</version>
+  <vendor email="michael_h_p@hotmail.com" url="https://github.com/MichaelPaulHP/">MichaelPaulHP</vendor>
+
+  <description><![CDATA[
+      It is a minimal theme by MichaelPaulHP made with love
+    ]]>
+  </description>
+
+  <change-notes><![CDATA[
+      create notes
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="c17a7df6-756c-4309-990d-4fc583963888" path="/elvis.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
